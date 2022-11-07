@@ -1,0 +1,167 @@
+body{
+background: rgb(255,76,76);
+background: linear-gradient(0deg, rgba(255,76,76,1) 0%, rgba(0,0,0,1) 95%);
+}
+.main-screen {
+  background-image: url("../assets/main-screen-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .heading {
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .card-for-input {
+    background: linear-gradient(
+      94.43deg,
+      rgba(249, 249, 249, 0.49) 34.95%,
+      rgba(249, 249, 249, 0.175) 67.01%
+    );
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    padding: 0 1.4rem 1.4rem 1.4rem;
+    margin: 20px;
+    width: 80%;
+  }
+
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+// Contact us page
+
+.contact-us-page{
+  background-image: url("../assets/main-screen-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .heading {
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
+
+// About us page
+
+.about-us{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  // flex-direction: column;
+
+  .about-us-content{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(
+      94.43deg,
+      rgba(249, 249, 249, 0.49) 34.95%,
+      rgba(249, 249, 249, 0.175) 67.01%
+    );
+    // height: 100%;
+    width: 40%;
+    margin: 30px;
+    margin-top: 10vh;
+  }
+
+  .about-us-image{
+    margin-top: 10vh;
+    height: 100%;
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-screen {
+    .heading {
+      font-size: 3rem;
+    }
+    .sub-heading {
+      font-size: 1rem;
+    }
+  }
+
+  .contact-us-page{
+    .heading {
+      font-size: 3rem;
+    }
+    .sub-heading {
+      font-size: 1rem;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .main-screen{
+      background-size:100% 100% ;
+
+      .input-fields {
+        flex-direction: row;
+        gap: 2rem;
+      }
+    }
+
+    .contact-us-page{
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-size:100% 100%;
+    }
+
+}

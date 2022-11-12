@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/repairwallah/static/css/main.36fbf3d4.css",
-    "main.js": "/repairwallah/static/js/main.f3681563.js",
+    "main.css": "/repairwallah/static/css/main.5773d267.css",
+    "main.js": "/repairwallah/static/js/main.e5647cbf.js",
     "static/js/787.57e90888.chunk.js": "/repairwallah/static/js/787.57e90888.chunk.js",
     "static/media/main-screen-bg.png": "/repairwallah/static/media/main-screen-bg.443095e7cd7516718a81.png",
     "static/media/email-icon.jpg": "/repairwallah/static/media/email-icon.17c435e62dc00641efe3.jpg",
@@ -9,12 +9,12 @@
     "static/media/whatsapp-icon.jpg": "/repairwallah/static/media/whatsapp-icon.c0da4b600cfa1cb2febf.jpg",
     "static/media/repairing.jpg": "/repairwallah/static/media/repairing.8197f9916a5c51dcc444.jpg",
     "index.html": "/repairwallah/index.html",
-    "main.36fbf3d4.css.map": "/repairwallah/static/css/main.36fbf3d4.css.map",
-    "main.f3681563.js.map": "/repairwallah/static/js/main.f3681563.js.map",
+    "main.5773d267.css.map": "/repairwallah/static/css/main.5773d267.css.map",
+    "main.e5647cbf.js.map": "/repairwallah/static/js/main.e5647cbf.js.map",
     "787.57e90888.chunk.js.map": "/repairwallah/static/js/787.57e90888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36fbf3d4.css",
-    "static/js/main.f3681563.js"
+    "static/css/main.5773d267.css",
+    "static/js/main.e5647cbf.js"
   ]
 }

@@ -1,10 +1,16 @@
 import {BsSearch} from 'react-icons/bs';
 
-export default function EButton() {
+interface IProps{
+    buttonText: string;
+}
+
+export default function EButton( { buttonText } : IProps ) {
+
+
   return (
     <div className='e-button'>
-    <BsSearch className="icon"/>
-    <span>Search</span>
+    {/* <BsSearch className="icon"/> */}
+    <span>{buttonText}</span>
     </div>
   )
 }

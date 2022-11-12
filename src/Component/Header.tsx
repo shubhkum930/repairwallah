@@ -31,8 +31,8 @@ export default function Header( ) {
           // Show menu on click
           showMenu ? (
             <div className="menu-items">
-              <p>Explore</p>
-               <p> About Us</p>
+              <p onClick={() => navigate("/home")}>Home</p>
+               <p onClick={() => navigate("/about-us")}> About Us</p>
                 <p onClick={() => navigate("/contact-us")}> Contact us</p>
   
               <div className="call"> Call</div>
